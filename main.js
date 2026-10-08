@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>{const n=document.querySelector('.links');if(n&&innerWidth<901)n.style.display='none'}));});

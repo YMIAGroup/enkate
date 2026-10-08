@@ -1,0 +1,15 @@
+/* ANKATE FINAL CORPORATE SYSTEM — navy / gold / white only */
+:root{--navy:#031c44;--navy2:#082b61;--gold:#d89a02;--gold2:#b97900;--cream:#f7f4ed;--ink:#10203a;--muted:#65738a;--line:#e2e5e9;--white:#fff}
+body{background:#fff;color:var(--ink)}
+.topbar{background:var(--navy)!important;color:#dce5f1!important;border-bottom:1px solid rgba(216,154,2,.45)}
+.nav{background:#fff!important;border-bottom:1px solid var(--line)!important}
+.cta{background:var(--gold)!important;color:var(--navy)!important;border-color:var(--gold)!important;border-radius:3px;box-shadow:none}
+.cta.secondary{background:#fff!important;color:var(--navy)!important;border-color:#cbd3df!important}
+.eyebrow,.kicker,.tag,.service .num,.stepno{color:var(--gold2)!important}
+.hero,.newsletter,.site-footer{background:var(--navy)!important}
+.hero-photo{background-image:url('../img/hero-hr-leadership.png')!important;background-size:cover!important;background-position:center!important}
+.hero-photo:before{background:linear-gradient(90deg,rgba(3,28,68,.94) 0%,rgba(3,28,68,.55) 34%,rgba(3,28,68,.05) 72%)!important}
+.feature .cover{background-image:url('../img/hero-hr-leadership.png')!important;background-size:cover!important;background-position:center!important}
+.problem:hover{border-color:var(--gold)!important}
+.service:before,.case-card{border-top-color:var(--gold)!important}
+.service a,.case-card a{color:var(--navy)!important}
